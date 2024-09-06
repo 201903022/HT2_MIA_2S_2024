@@ -1,7 +1,7 @@
 # HT2_MIA_2S_2024
 
 ## Install Graphviz Ubuntu: 
-> ```npm install grapvhiz```
+> ```sudo apt-get install graphviz```
 
 ## Create a dot File
 > ```file, err := os.Create(dotFileName)```
