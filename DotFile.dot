@@ -1,0 +1,30 @@
+digraph G {
+    node [shape=plain, fontname=Arial];
+    Disco1 [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+            <TR>
+                <TD COLSPAN="7">Disco1.dsk</TD>
+            </TR>
+            <TR>
+                <TD>MBR</TD>
+                <TD>Libre<br/>25% del disco</TD>
+                <TD COLSPAN="3">
+                    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                        <TR>
+                            <TD COLSPAN="5">Extendida</TD>
+                        </TR>
+                        <TR>
+                            <TD>EBR</TD>
+                            <TD>Lógica<br/>10% del Disco</TD>
+                            <TD>Libre<br/>10% del Disco</TD>
+                            <TD>EBR</TD>
+                            <TD>Lógica<br/>10% del Disco</TD>
+                        </TR>
+                    </TABLE>
+                </TD>
+                <TD>Primaria<br/>20% del disco</TD>
+                <TD>Libre<br/>15% del disco</TD>
+            </TR>
+		</TABLE>
+			>];
+		}
